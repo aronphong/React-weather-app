@@ -10,7 +10,7 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = { 
-      location: "sacramento",
+      location: "",
       units: "imperial",
       weatherData: null
     }
@@ -38,7 +38,7 @@ class App extends Component {
   render() {
     let forecast;
     if (this.state.weatherData) {
-      forecast = <Forecast data={this.state.weatherData} />
+      forecast = <Forecast data={this.state.weatherData} units={this.state.units} />
     } else {
       forecast = null;
     }
@@ -47,10 +47,12 @@ class App extends Component {
       <div className="App">
         <Layout>
           <Titles />
-          <Form 
+          <Form
+            location={this.state.location} 
             getLocation={this.handleLocation}
-            location={this.state.location} />
-          <button onClick={this.handleWeatherData}> Click </button>
+            searchWeather={this.handleWeatherData}
+          />
+          {/* <button onClick={this.handleWeatherData}> Click </button> */}
           {forecast}
         </Layout>
       </div>
