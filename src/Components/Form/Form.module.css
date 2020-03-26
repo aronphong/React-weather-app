@@ -1,5 +1,13 @@
+.Form {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
 .search {
-    width: 65%;
+    flex-grow: 2;
     border: none;
     background-color: rgb(255, 255, 255, 0.6);
     margin: 5px 0px;
@@ -9,8 +17,7 @@
     font-size: 1rem;
 }
 
-.button {
-    width: 35%;
+.Form button {
     border-radius: 10px;
     padding: 6px;
     margin: 8px;
@@ -24,6 +31,6 @@
     transition: ease-in 100ms;
 }
 
-.button:hover {
+.Form button:hover {
     background-color: rgb(0, 255, 255, 0.5);
 }
