@@ -14,23 +14,27 @@ const Weather = {
 
     // Save only relevant data to state
     saveWeatherData(data) {
-        let forecastData = {
-            main: data.weather[0].main,
-            description: data.weather[0].description,
-            temp: data.main.temp,
-            feelsLike: data.main.feels_like,
-            tempMin: data.main.temp_min,
-            tempMax: data.main.temp_max,
-            pressure: data.main.pressure,
-            wind: {
-                speed: data.wind.speed,
-                degrees: data.wind.deg
-            },
-            sunrise: data.sys.sunrise,
-            sunset: data.sys.sunset
-        };
-
-        return forecastData;
+        try {
+            let forecastData = {
+                name: data.name,
+                main: data.weather[0].main,
+                description: data.weather[0].description,
+                temp: data.main.temp,
+                feelsLike: data.main.feels_like,
+                tempMin: data.main.temp_min,
+                tempMax: data.main.temp_max,
+                pressure: data.main.pressure,
+                wind: {
+                    speed: data.wind.speed,
+                    degrees: data.wind.deg
+                },
+                sunrise: data.sys.sunrise,
+                sunset: data.sys.sunset
+            };
+            return forecastData;        
+        } catch (error) {
+            console.log(error)
+        }
     }
 };
 
