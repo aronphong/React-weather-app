@@ -1,18 +1,16 @@
 .Forecast {
-    display: flex;
-    flex-flow: row;
-    justify-content: space-around;
-    align-items: stretch;
-    align-content: stretch;
-    text-align: center;
-    flex-wrap: wrap;
+    width: 100%;
 }
 
 .Forecast div {
-    flex: 1;
-    margin: 4px 4px;
-    padding: 15px;
+    margin: 8px 4px;
+    padding: 4px;
     flex-basis: auto;
-    border: 1px solid black;
     box-sizing: border-box;
+    font-size: 1.2rem;
+}
+
+.name {
+    font-weight: bold;
+    border-bottom: 1px solid black;
 }
