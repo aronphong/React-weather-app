@@ -10,6 +10,7 @@ class Form extends Component {
 
     handleSearch = () => {
         if (this.props.location === "") {
+            document.getElementsByTagName('input')[0].focus();
             return;
         }
         this.props.searchWeather();
@@ -26,7 +27,10 @@ class Form extends Component {
                     onChange={this.getInput}
                     value={this.props.location}
                     placeholder="Enter City name"  />
-                <button onClick={this.handleSearch}>Search</button>
+                <button 
+                    onClick={this.handleSearch}
+                    className={styles.button}
+                >Search</button>
             </React.Fragment>
         );
     }
