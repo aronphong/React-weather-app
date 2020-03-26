@@ -16,6 +16,7 @@ class App extends Component {
     }
 
     this.handleLocation = this.handleLocation.bind(this);
+    this.handleUnitChange = this.handleUnitChange.bind(this);
     this.handleWeatherData = this.handleWeatherData.bind(this);
   }
 
@@ -27,9 +28,14 @@ class App extends Component {
     this.setState({location: str});
   }
 
+  handleUnitChange() {
+    const change = (this.state.units === "imperial" ? "metric" : "imperial");
+    this.setState({units: change});
+  }
+
   // Get data and save to state
   handleWeatherData() {
-    Weather.getWeatherData(this.state.location, this.units).then(response => {
+    Weather.getWeatherData(this.state.location, this.state.units).then(response => {
       let forecastData = Weather.saveWeatherData(response)
       this.setState({weatherData: forecastData})
     });
@@ -50,6 +56,8 @@ class App extends Component {
           <Form
             location={this.state.location} 
             getLocation={this.handleLocation}
+            switchUnits={this.handleUnitChange}
+            units={this.state.units}
             searchWeather={this.handleWeatherData}
           />
           {/* <button onClick={this.handleWeatherData}> Click </button> */}

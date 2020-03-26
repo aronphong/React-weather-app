@@ -18,7 +18,7 @@ class Form extends Component {
 
     render () {
         return (
-            <React.Fragment>
+            <div className={styles.Form}>
                 <input
                     autoFocus 
                     className={styles.search} 
@@ -27,11 +27,9 @@ class Form extends Component {
                     onChange={this.getInput}
                     value={this.props.location}
                     placeholder="Enter City name"  />
-                <button 
-                    onClick={this.handleSearch}
-                    className={styles.button}
-                >Search</button>
-            </React.Fragment>
+                <button onClick={this.props.switchUnits}>{this.props.units}</button>
+                <button onClick={this.handleSearch}>Search</button>
+            </div>
         );
     }
 };
