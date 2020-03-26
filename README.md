@@ -1,3 +1,18 @@
+# React Weather App
+
+This app uses React and the OpenWeatherMap API to get current weather data and display it to the user!
+
+## Things I learned
+* How to use async functions
+* Calling an API and formatting the received data
+* Managing state with react and thinking about how to structure components
+
+## Things to do
+* Display units 
+* Icons
+* Make UI prettier with CSS
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
