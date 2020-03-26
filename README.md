@@ -8,9 +8,12 @@ This app uses React and the OpenWeatherMap API to get current weather data and d
 * Managing state with react and thinking about how to structure components
 
 ## Things to do
+* Search States / country functionality
+* Make units button
 * Display units 
 * Icons
 * Make UI prettier with CSS
+
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
