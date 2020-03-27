@@ -13,7 +13,8 @@ This app uses React and the OpenWeatherMap API to get current weather data and d
 * ~~Display units~~
 * Icons
 * Make UI prettier with CSS
-
+* Create active CSS class for units
+* Create proper units search
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
