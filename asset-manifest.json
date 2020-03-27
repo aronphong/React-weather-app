@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.2e982ef3.chunk.css",
-    "main.js": "/static/js/main.63184c05.chunk.js",
-    "main.js.map": "/static/js/main.63184c05.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.94f71fc2.js",
-    "runtime-main.js.map": "/static/js/runtime-main.94f71fc2.js.map",
-    "static/js/2.bfa9b0db.chunk.js": "/static/js/2.bfa9b0db.chunk.js",
-    "static/js/2.bfa9b0db.chunk.js.map": "/static/js/2.bfa9b0db.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.a8edcb87690f34af679ed28bc638a177.js": "/precache-manifest.a8edcb87690f34af679ed28bc638a177.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.2e982ef3.chunk.css.map": "/static/css/main.2e982ef3.chunk.css.map",
-    "static/js/2.bfa9b0db.chunk.js.LICENSE.txt": "/static/js/2.bfa9b0db.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/static/media/mountains.3213e24a.jpg"
+    "main.css": "/React-weather-app/static/css/main.52516580.chunk.css",
+    "main.js": "/React-weather-app/static/js/main.15ca89e9.chunk.js",
+    "main.js.map": "/React-weather-app/static/js/main.15ca89e9.chunk.js.map",
+    "runtime-main.js": "/React-weather-app/static/js/runtime-main.a87f907a.js",
+    "runtime-main.js.map": "/React-weather-app/static/js/runtime-main.a87f907a.js.map",
+    "static/js/2.bfa9b0db.chunk.js": "/React-weather-app/static/js/2.bfa9b0db.chunk.js",
+    "static/js/2.bfa9b0db.chunk.js.map": "/React-weather-app/static/js/2.bfa9b0db.chunk.js.map",
+    "index.html": "/React-weather-app/index.html",
+    "precache-manifest.730054783ab4c2278bd2432e177b5791.js": "/React-weather-app/precache-manifest.730054783ab4c2278bd2432e177b5791.js",
+    "service-worker.js": "/React-weather-app/service-worker.js",
+    "static/css/main.52516580.chunk.css.map": "/React-weather-app/static/css/main.52516580.chunk.css.map",
+    "static/js/2.bfa9b0db.chunk.js.LICENSE.txt": "/React-weather-app/static/js/2.bfa9b0db.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/React-weather-app/static/media/mountains.3213e24a.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.94f71fc2.js",
+    "static/js/runtime-main.a87f907a.js",
     "static/js/2.bfa9b0db.chunk.js",
-    "static/css/main.2e982ef3.chunk.css",
-    "static/js/main.63184c05.chunk.js"
+    "static/css/main.52516580.chunk.css",
+    "static/js/main.15ca89e9.chunk.js"
   ]
 }
