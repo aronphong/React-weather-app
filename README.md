@@ -1,6 +1,7 @@
 # React Weather App
 
 This app uses React and the OpenWeatherMap API to get current weather data and display it to the user!
+
 [Live Demo](https://aronphong.github.io/React-weather-app/)
 
 ## Things I learned
